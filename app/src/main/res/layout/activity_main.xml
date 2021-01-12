@@ -13,10 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="90dp"
         android:textColor="#FFFFFF"
         android:textSize="28sp"/>
-    
+
     <TextView
         android:id="@+id/weather_icon"
         android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
         android:textSize="90sp"/>
-    
+
     <TextView
         android:id="@+id/current_temperature_field"
         android:layout_width="wrap_content"
@@ -39,8 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/current_temperature_field"
         android:layout_centerHorizontal="true"
-        android:text="Weather"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/pressure_field"
